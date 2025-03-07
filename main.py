@@ -1,14 +1,14 @@
 import streamlit as st
 
 
-home_page = st.Page(
+home_page = st.page(
     page="views/home.py",
     title="Home",
     icon=":material/security:",
     default=True,
 )
 
-blog_page= st.Page(
+blog_page= st.page(
     page="views/blog.py",
     title="Blog",
     icon=":material/security:",
