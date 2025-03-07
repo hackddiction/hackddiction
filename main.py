@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.image("logo.png")
+st.sidebar.image("logo.png")
