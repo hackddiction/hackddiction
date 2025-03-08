@@ -2,7 +2,7 @@ import streamlit as st
 
 
 home_page = st.Page(
-    page="./views/home.py",
+    page="views/home.py",
     title="Home",
     icon=":material/security:",
     default=True,
